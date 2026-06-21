@@ -33,8 +33,4 @@ visium_CRC/
 
 ## Data availability
 
-Raw data are not directly provided at the moment. Processed data will be made available in appropriate public data repositories after publication. Public datasets used for reference integration and external validation are described in the manuscript.
-
-## Code availability
-
-This repository provides the custom scripts used for the reported analyses. The scripts are organized by analysis workflow rather than by figure panel. Local file paths should be adjusted in the project configuration file before running the analyses.
+Exceptions: Raw data can't be directly provided at the moment. Processed data will be available in proper data repositories after publication.
