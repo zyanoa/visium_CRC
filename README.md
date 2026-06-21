@@ -1,8 +1,6 @@
-# visium_CRC
+# Spatial transcriptomic analysis of dMMR and pMMR colorectal cancer
 
-This repository contains custom analysis scripts for a spatial transcriptomics study of mismatch repair-deficient (dMMR) and mismatch repair-proficient (pMMR) colorectal cancer, with a focus on tertiary lymphoid structure-associated immune microenvironments.
-
-Raw sequencing data, large processed objects, and full sample-level metadata are not included in this repository. Software versions, sample information, and data sources are described in the manuscript and supplementary materials.
+This repository contains custom analysis scripts accompanying a spatial transcriptomics study of mismatch repair-deficient (dMMR) and mismatch repair-proficient (pMMR) colorectal cancer. The study investigates how spatially organized immune ecosystems, tertiary lymphoid structure maturation, plasma-cell-enriched niches, and chemokine-associated cellular interactions distinguish dMMR from pMMR tumors and relate to immunotherapy response and patient outcome.
 
 ## Repository structure
 
@@ -33,8 +31,10 @@ visium_CRC/
 | `07_external_validation/`  | External cohort validation analyses                                          |
 | `signatures/`              | Curated gene signatures used by selected validation scripts                  |
 
-## Notes
+## Data availability
 
-The scripts are organized by analysis workflow rather than by figure panel. Local file paths should be adjusted in the project configuration file before running the analyses.
+Raw data are not directly provided at the moment. Processed data will be made available in appropriate public data repositories after publication. Public datasets used for reference integration and external validation are described in the manuscript.
 
-This repository is intended to accompany the manuscript and provide the custom code used for the reported analyses.
+## Code availability
+
+This repository provides the custom scripts used for the reported analyses. The scripts are organized by analysis workflow rather than by figure panel. Local file paths should be adjusted in the project configuration file before running the analyses.
