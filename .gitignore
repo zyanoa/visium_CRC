@@ -1,0 +1,33 @@
+# Large data and outputs
+data/
+results/
+figures/
+*.h5ad
+*.h5
+*.loom
+*.rds
+*.RDS
+*.rda
+*.RData
+
+# Keep small curated signature resources
+!signatures/marker_list.Rdata
+!signatures/plasma_subtype_signatures.csv
+
+# Archives and logs
+*.zip
+*.tar.gz
+*.log
+*.out
+*.err
+
+# Python/R cache
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
