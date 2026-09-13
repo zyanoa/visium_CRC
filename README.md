@@ -33,4 +33,4 @@ visium_CRC/
 
 ## Data availability
 
-Exceptions: Raw data can't be directly provided at the moment. Processed data will be available in proper data repositories after publication.
+Spatial transcriptomics data generated in this study have been deposited in the Gene Expression Omnibus under accession number GSE331208.
